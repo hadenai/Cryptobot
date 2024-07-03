@@ -1,4 +1,7 @@
-from models import Klines
+from crypto_Bot.models import Klines
 
-# récupère tout les Klines de la bdd
-data_klines = Klines.objects.all()
+
+def result_ml():
+    # récupère tout les Klines de la bdd
+    data_klines = Klines.objects.all()
+    return "result Beautifull ml"

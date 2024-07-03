@@ -19,8 +19,7 @@ from django.urls import path, include
 from rest_framework import routers
 
 from crypto_Bot.urls import router as crypto_router
-
-from CryptoBot.crypto_Bot.views import index
+from crypto_Bot.views import index
 
 router = routers.DefaultRouter()
 router.registry.extend(crypto_router.registry)
