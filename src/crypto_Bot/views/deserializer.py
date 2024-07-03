@@ -7,8 +7,10 @@ api_key = config('API_KEY')
 secret_key = config('SECRET_KEY')  
 
 binance_api = BinanceAPI(api_key, secret_key, testnet=True)
-klines = binance_api.get_first_klines("BNBBTC", Client.KLINE_INTERVAL_1MINUTE, "18 Apr, 2024")
-print(klines)
+klines = binance_api.get_first_klines("BNBBTC", Client.KLINE_INTERVAL_1MINUTE, "20 Jun, 2023")
+#klines = binance_api.get_historical_klines("BNBBTC", Client.KLINE_INTERVAL_1MINUTE, "20 Jun, 2023")
+#print(klines)
+#breakpoint()
 
 for kline in klines:
   data_binance_klines = {

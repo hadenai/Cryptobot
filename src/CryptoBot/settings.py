@@ -56,7 +56,7 @@ ROOT_URLCONF = "CryptoBot.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ['/Users/manoabrugger/Documents/cryptoBot/CryptoBot/crypto_Bot/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
