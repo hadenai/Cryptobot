@@ -2,4 +2,4 @@ django
 mysqlclient
 djangorestframework
 django-filter
-decouple
+python-decouple

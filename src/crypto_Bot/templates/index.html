@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My app</title>
+  {% load bootstrap5 %}
+  {% bootstrap_css %}
+  {% bootstrap_javascript %}
+</head>
+<body>
+  <h1> Result machine learning</h1>
+  <div class="container">
+   <p>{{ result_ml_test }}</p>
+    {% for  kline in all_kines %}
+      <p> {{ kline.id }}</p>
+    {% endfor %}
+  </div>
+</body>
+</html>

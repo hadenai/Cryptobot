@@ -38,7 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "crypto_Bot"
+    "crypto_Bot",
+    "bootstrap5"
 ]
 
 MIDDLEWARE = [
@@ -56,7 +57,7 @@ ROOT_URLCONF = "CryptoBot.urls"
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [],
+        "DIRS": ['/Users/manoabrugger/Documents/cryptoBot/src/crypto_Bot/templates'],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
